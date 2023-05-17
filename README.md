@@ -60,3 +60,49 @@ Additionally, make sure that the following extensions are enabled in your PHP:
 - json (enabled by default - don't turn it off)
 - [mysqlnd](http://php.net/manual/en/mysqlnd.install.php) if you plan to use MySQL
 - [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
+
+# Spanish
+
+# Inicio de la aplicación de CodeIgniter 4
+## ¿Qué es CodeIgniter?
+CodeIgniter es un marco de aplicaciones web completo en PHP que es ligero, rápido, flexible y seguro. Puedes encontrar más información en el sitio oficial.
+
+Este repositorio contiene una aplicación inicializable a través de Composer. Ha sido construido a partir del repositorio de desarrollo.
+
+Puedes encontrar más información sobre los planes para la versión 4 en CodeIgniter 4 en los foros.
+
+La guía del usuario correspondiente a la última versión del marco se puede encontrar aquí.
+
+## Instalación y actualizaciones
+
+Ejecuta el comando "composer create-project codeigniter4/appstarter" y luego "composer update" cada vez que haya una nueva versión del marco.
+
+Al actualizar, revisa las notas de la versión para ver si hay cambios que debas aplicar a tu carpeta de la aplicación. Los archivos afectados se pueden copiar o fusionar desde "vendor/codeigniter4/framework/app".
+
+##Configuración
+
+Copia el archivo "env" a ".env" y ajústalo para tu aplicación, especialmente la URL base y cualquier configuración de la base de datos.
+
+Cambio importante con index.php
+¡El archivo index.php ya no se encuentra en la raíz del proyecto! Se ha movido dentro de la carpeta "public" para una mejor seguridad y separación de componentes.
+
+Esto significa que debes configurar tu servidor web para que "apunte" a la carpeta "public" de tu proyecto, y no a la raíz del proyecto. Sería una práctica recomendada configurar un host virtual para apuntar allí. Sería una mala práctica apuntar tu servidor web a la raíz del proyecto y esperar ingresar a "public/...", ya que el resto de tu lógica y el marco estarían expuestos.
+
+¡Lee la guía del usuario para una mejor explicación de cómo funciona CI4!
+
+##Gestión del repositorio
+
+Utilizamos problemas en GitHub en nuestro repositorio principal para rastrear ERRORES y paquetes de trabajo de DESARROLLO aprobados. Utilizamos nuestro foro para proporcionar APOYO y discutir SOLICITUDES DE FUNCIONES.
+
+Este repositorio es una "distribución", construida mediante nuestro script de preparación de lanzamientos. Los problemas relacionados con él se pueden plantear en nuestro foro o como problemas en el repositorio principal.
+
+##Requisitos del servidor
+Se requiere PHP versión 7.4 o superior, con las siguientes extensiones instaladas:
+
+intl
+mbstring
+Además, asegúrate de que las siguientes extensiones estén habilitadas en tu PHP:
+
+json (habilitado de forma predeterminada, no lo desactives)
+mysqlnd si planeas usar MySQL
+libcurl si planeas usar la biblioteca HTTP\CURLRequest.
