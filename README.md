@@ -79,7 +79,7 @@ Ejecuta el comando "composer create-project codeigniter4/appstarter" y luego "co
 
 Al actualizar, revisa las notas de la versión para ver si hay cambios que debas aplicar a tu carpeta de la aplicación. Los archivos afectados se pueden copiar o fusionar desde "vendor/codeigniter4/framework/app".
 
-##Configuración
+## Configuración
 
 Copia el archivo "env" a ".env" y ajústalo para tu aplicación, especialmente la URL base y cualquier configuración de la base de datos.
 
