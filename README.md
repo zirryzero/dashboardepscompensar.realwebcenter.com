@@ -90,13 +90,13 @@ Esto significa que debes configurar tu servidor web para que "apunte" a la carpe
 
 ¡Lee la guía del usuario para una mejor explicación de cómo funciona CI4!
 
-##Gestión del repositorio
+## Gestión del repositorio
 
 Utilizamos problemas en GitHub en nuestro repositorio principal para rastrear ERRORES y paquetes de trabajo de DESARROLLO aprobados. Utilizamos nuestro foro para proporcionar APOYO y discutir SOLICITUDES DE FUNCIONES.
 
 Este repositorio es una "distribución", construida mediante nuestro script de preparación de lanzamientos. Los problemas relacionados con él se pueden plantear en nuestro foro o como problemas en el repositorio principal.
 
-##Requisitos del servidor
+## Requisitos del servidor
 Se requiere PHP versión 7.4 o superior, con las siguientes extensiones instaladas:
 
 intl
