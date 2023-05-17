@@ -33,7 +33,7 @@ and any database settings.
 `index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
 for better security and separation of components.
 
-This means that you should configure your web server to "point" to your project's *public* folder, and
+This means that you should configure your web server to `point` to your project's *public* folder, and
 not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
 framework are exposed.
 
@@ -45,7 +45,7 @@ We use GitHub issues, in our main repository, to track **BUGS** and to track app
 We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
 FEATURE REQUESTS.
 
-This repository is a "distribution" one, built by our release preparation script.
+This repository is a `distribution` one, built by our release preparation script.
 Problems with it can be raised on our forum, or as issues in the main repository.
 
 ## Server Requirements
@@ -75,18 +75,18 @@ La guía del usuario correspondiente a la última versión del marco se puede en
 
 ## Instalación y actualizaciones
 
-Ejecuta el comando "composer create-project codeigniter4/appstarter" y luego "composer update" cada vez que haya una nueva versión del marco.
+Ejecuta el comando `composer create-project codeigniter4/appstarter` y luego `composer update` cada vez que haya una nueva versión del marco.
 
-Al actualizar, revisa las notas de la versión para ver si hay cambios que debas aplicar a tu carpeta de la aplicación. Los archivos afectados se pueden copiar o fusionar desde "vendor/codeigniter4/framework/app".
+Al actualizar, revisa las notas de la versión para ver si hay cambios que debas aplicar a tu carpeta de la aplicación. Los archivos afectados se pueden copiar o fusionar desde `vendor/codeigniter4/framework/app`.
 
 ## Configuración
 
-Copia el archivo "env" a ".env" y ajústalo para tu aplicación, especialmente la URL base y cualquier configuración de la base de datos.
+Copia el archivo `env` a `.env` y ajústalo para tu aplicación, especialmente la URL base y cualquier configuración de la base de datos.
 
 Cambio importante con index.php
-¡El archivo index.php ya no se encuentra en la raíz del proyecto! Se ha movido dentro de la carpeta "public" para una mejor seguridad y separación de componentes.
+¡El archivo index.php ya no se encuentra en la raíz del proyecto! Se ha movido dentro de la carpeta `public` para una mejor seguridad y separación de componentes.
 
-Esto significa que debes configurar tu servidor web para que "apunte" a la carpeta "public" de tu proyecto, y no a la raíz del proyecto. Sería una práctica recomendada configurar un host virtual para apuntar allí. Sería una mala práctica apuntar tu servidor web a la raíz del proyecto y esperar ingresar a "public/...", ya que el resto de tu lógica y el marco estarían expuestos.
+Esto significa que debes configurar tu servidor web para que `apunte` a la carpeta `public` de tu proyecto, y no a la raíz del proyecto. Sería una práctica recomendada configurar un host virtual para apuntar allí. Sería una mala práctica apuntar tu servidor web a la raíz del proyecto y esperar ingresar a `public/...`, ya que el resto de tu lógica y el marco estarían expuestos.
 
 ¡Lee la guía del usuario para una mejor explicación de cómo funciona CI4!
 
@@ -94,7 +94,7 @@ Esto significa que debes configurar tu servidor web para que "apunte" a la carpe
 
 Utilizamos problemas en GitHub en nuestro repositorio principal para rastrear ERRORES y paquetes de trabajo de DESARROLLO aprobados. Utilizamos nuestro foro para proporcionar APOYO y discutir SOLICITUDES DE FUNCIONES.
 
-Este repositorio es una "distribución", construida mediante nuestro script de preparación de lanzamientos. Los problemas relacionados con él se pueden plantear en nuestro foro o como problemas en el repositorio principal.
+Este repositorio es una `distribución`, construida mediante nuestro script de preparación de lanzamientos. Los problemas relacionados con él se pueden plantear en nuestro foro o como problemas en el repositorio principal.
 
 ## Requisitos del servidor
 Se requiere PHP versión 7.4 o superior, con las siguientes extensiones instaladas:
