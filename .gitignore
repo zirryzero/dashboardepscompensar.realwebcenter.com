@@ -1,0 +1,60 @@
+# Environment files
+.env
+.env.*
+!.env.example
+env copy
+
+# Composer dependencies
+/vendor/
+composer.phar
+
+# CodeIgniter 4 writable storage
+writable/cache/*
+!writable/cache/index.html
+!writable/cache/.gitkeep
+
+writable/debugbar/*
+!writable/debugbar/.gitkeep
+
+writable/logs/*
+!writable/logs/index.html
+!writable/logs/.gitkeep
+
+writable/session/*
+!writable/session/index.html
+!writable/session/.gitkeep
+
+writable/uploads/*
+!writable/uploads/index.html
+!writable/uploads/.gitkeep
+
+# Database backups, dumps and SQLite
+*.sql
+*.sqlite
+*.db
+Base de datos/
+!schema.sql
+
+# Office, Power BI and binary files containing local or sensitive data
+*.pbix
+*.docx
+*.doc
+*.xlsx
+*.xls
+*.csv
+powerBy
+
+# Operating System files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# IDE and Editor files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
